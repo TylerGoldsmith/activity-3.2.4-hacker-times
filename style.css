@@ -1,48 +1,66 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Slab:wght@500&family=Source+Sans+Pro:wght@200;400;600&display=swap');
 
-body        {
-    background-color: #eee;
-    font-family: 'Source Sans Pro';
-}    
-
-nav a       {
-    color: #777;
-
-}
-
-main        {
-    color: #dd3232;
-}
-
-img         {
-    border-radius: 15px;
-}
-
+/*Newspaper Container*/
 .newspaper-container    {
     background-color: white;
     box-shadow: #ddd;
     width: 700px;
     border-radius: 25px;
-    padding: 30px;
+    padding: 100px;
+    margin: auto;
+}
+/*Newspaper Container*/
 
+
+/*Navigation Bar*/
+#nav1 nav  a      {
+    color: #777;
+    text-align: left;
+}
+
+ul          {
+    text-align: left;
+    list-style-type: none;
+    border-top: solid black 2px;
+    border-bottom: solid black 2px;
+}
+
+li          {
+    text-align: left;
+    display: inline-block;
+    padding: 3px;
+}
+/*Navigation Bar End*/
+
+
+
+
+body        {
+    background-color: #eee;
+    font-family: 'Source Sans Pro'
+    
+}    
+
+main        {
+    color: #dd3232;
+    text-align: left;
+}
+
+#laptop        {
+    border-radius: 10px;
+    display: justify;
+    border: rgb(200, 0, 0) solid 5px;
+}
+
+.more-articles img     {
+    border-radius: 15px;
+    display: justify;
+    border: black solid 2px;
 }
 
 header h1      {
     text-align: center;
     font-family: 'Abril Fatface';
-}
-
-ul          {
-    list-style-type: none;
-    margin-left:-40px;
-    border-top: solid black 2px;
-    border-bottom: solid black 2px;
-
-}
-
-li          {
-    display: inline-block;
-    padding: 1px;
 }
 
 main h2     {
@@ -54,14 +72,34 @@ main h2     {
 }
 
 .more-articles  h4    {
-    font-family: 'Roboto Slab';
+    font-family: 'Roboto Slab'
+    margin 10px;
 }
 
 .more-articles p    {
     width: 250px;
+    margin: 10px;
 }
 
 .more-articles section   {
     display: inline-block;
     text-align: justify;
+    margin: 5px;
 }
+/*Footer Bar*/
+#footerbar nav  a      {
+    color: #777;
+}
+
+ul          {
+    list-style-type: none;
+    border-top: solid black 2px;
+    border-bottom: solid black 2px;
+}
+
+li          {
+    font-size: 13px;
+    display: inline-block;
+    padding: 3px;
+}
+/*Footer Bar End*/
